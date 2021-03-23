@@ -69,13 +69,13 @@ a:hover {
 }
 
 .tangerine-background a.btn {
-    color: #ffffff !important;
+    color: #ffffff!important;
     font-weight: bold;
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #c27956;
+    color: #f3976c;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .text-center a {
-    color: #c27956;
+    color: #f3976c;
 }
 
 .bg-center,
