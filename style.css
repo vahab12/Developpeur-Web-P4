@@ -111,16 +111,6 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -164,7 +154,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -682,7 +672,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -708,7 +698,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -758,7 +748,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
@@ -775,8 +766,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #f3976c;
     padding: 40px 40px 40px 40px;
+    border-radius: 30px;
 }
 
 .bold-link {
@@ -797,20 +789,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
     color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
-}
-
-.ltc-white {
     color: #FFFFFF!important;
 }
 
@@ -832,19 +820,15 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("./img/dots-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("./img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("./img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1061,4 +1045,33 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+
+/*bloc-5-cta*/
+
+.contact-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-contact {
+    background-color: #F3976C;
+    width: 500px;
+    height: 170px;
+    border-radius: 30px;
+}
+
+
+/*citation text et auteur*/
+
+#citation-text {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#citation-auteur {
+    font-size: 20px;
+    font-style: italic;
 }
