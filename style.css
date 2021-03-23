@@ -61,10 +61,16 @@ a:hover {
 
 .slider-btn {
     background-color: #f3976c;
+    border-radius: 30px;
 }
 
 .tangerine-background {
     padding: 15px;
+}
+
+.tangerine-background a.btn {
+    color: #ffffff !important;
+    font-weight: bold;
 }
 
 .cta-hero {

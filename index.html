@@ -25,11 +25,11 @@
     <link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
     <!--Balise script munifier-->
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/blocs.min.js"></script>
-    <script src="./js/jquery.touchSwipe.min.js" defer></script>
-    <script src="./js/gmaps.min.js"></script>
+    <script src="./js/jquery-2.1.0.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/blocs.js"></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
+    <script src="./js/gmaps.js"></script>
 
     <!--Balise Open Graph-->
     <meta property="og:title" content="Entreprise webdesign Lyon - La Chouette Agence" />
@@ -40,13 +40,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:image:alt" content="Création d'un site web">
 
-
     <!-- Twitter-->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@chouetteagence">
     <meta name="twitter:title" content="L'entreprise de webdesign à Lyon - La Chouette Agence " />
     <meta name="twitter:description" content="L'entreprise de webdesign située à Lyon, vous propose son service pour vous aider à la création ou la refonte de votre site web." />
-
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124611746-1"></script>
@@ -117,14 +115,12 @@
         <!-- bloc-2-services -->
         <div class="bloc bgc-white l-bloc" id="bloc-2-services">
             <div class="container bloc-md">
-                <section class="row">
+                <div class="row">
                     <div class="col-sm-12 text-center ">
                         <h2 class="text-img">La chouette agence est une agence de webdesign qui aide<br /> les entreprises à devenir attractives et visibles sur internet.</h2>
                     </div>
-                </section>
-                <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-                <div class="row voffset-lg med-width-whitespace">
+                </div>
+                <article class="row voffset-lg med-width-whitespace">
                     <div class="col-sm-4">
                         <div class="text-center">
                             <span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
@@ -133,7 +129,7 @@
                             Web design
                         </h3>
                         <p class="text-center ">
-                            Que vous ayez un site web qui a besoin d&rsquo;un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
+                            Que vous ayez un site web qui a besoin d'un rafraîchissement ou que vous partiez de zéro, laissez-nous vous réaliser un design dont vous serez fier.
                         </p>
                     </div>
                     <div class="col-sm-4">
@@ -158,17 +154,22 @@
                             Un bon design n'est rien sans de bonnes illustrations. Laissez faire notre équipe de graphistes talentueux pour donner à vos pages une touche finale d'élégance.
                         </p>
                     </div>
-                </div>
+                </article>
+
                 <div class="row voffset-lg voffset">
                     <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-                        <img alt="agence web, agence web paris, web design paris, stratégie web" src="img/citation.png" />
-
+                        <blockquote>
+                            <p id="citation-text">"La chouette agence est une excellente agence web ! Les web designers ont réussi à capturer l'essence de notre entreprise et à l'intégrer à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon."</p>
+                            <cite id="citation-auteur">
+                                Maxime Guibard, PDG de À vos fourchettes
+                            </cite>
+                        </blockquote>
                     </div>
                 </div>
             </div>
         </div>
         <!-- bloc-2-services END -->
-
+        <!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
         <!-- bloc-3-what-i-do -->
         <div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax" id="bloc-3-what-i-do">
             <div class="container bloc-lg">
